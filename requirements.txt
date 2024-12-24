@@ -1,0 +1,5 @@
+pytest==8.3.4
+pytest-selenium==4.1.0
+selenium==4.27.1
+load-dotenv==0.1.0
+pytest-html==4.1.1
