@@ -1,0 +1,271 @@
+[1735131645.051][INFO]: Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 65322
+[1735131645.051][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1735131645.054][INFO]: ChromeDriver was started successfully on port 65322
+[1735131645.590][INFO]: [b9e2686f2afe6ea38823809e93b01452] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "pageLoadStrategy": "normal"
+      },
+      "firstMatch": [ {
+      } ]
+   }
+}
+[1735131645.590][INFO]: Browser search. Trying... C:\Users\akulkov\PycharmProjects\astra\chromedriver-win64\chrome.exe
+[1735131645.590][INFO]: Browser search. Trying... C:\Users\akulkov\PycharmProjects\astra\chromedriver-win64\chrome.exe
+[1735131645.591][INFO]: Browser search. Trying... C:\Users\akulkov\PycharmProjects\astra\chromedriver-win64\chromium.exe
+[1735131645.594][INFO]: Browser search. Trying... C:\Users\akulkov\AppData\Local\Google\Chrome\Application\chrome.exe
+[1735131645.594][INFO]: Browser search. Trying... C:\Program Files\Google\Chrome\Application\chrome.exe
+[1735131645.594][INFO]: Browser search. Found at  C:\Program Files\Google\Chrome\Application\chrome.exe
+[1735131645.594][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1735131645.595][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1735131645.596][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1735131645.596][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1735131645.598][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\akulkov\AppData\Local\Temp\scoped_dir15780_27756961" data:,
+[1735131646.174][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1735131646.185][INFO]: [b9e2686f2afe6ea38823809e93b01452] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "131.0.6778.205",
+      "chrome": {
+         "chromedriverVersion": "131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393})",
+         "userDataDir": "C:\\Users\\akulkov\\AppData\\Local\\Temp\\scoped_dir15780_27756961"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:65330"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "b9e2686f2afe6ea38823809e93b01452"
+}
+[1735131646.189][INFO]: [b9e2686f2afe6ea38823809e93b01452] COMMAND SetTimeouts {
+   "implicit": 10000
+}
+[1735131646.189][INFO]: [b9e2686f2afe6ea38823809e93b01452] RESPONSE SetTimeouts
+[1735131646.194][INFO]: [b9e2686f2afe6ea38823809e93b01452] COMMAND Navigate {
+   "url": "https://test-vanilla.promo.astradisk.ru/login"
+}
+[1735131646.194][INFO]: Waiting for pending navigations...
+[1735131646.202][INFO]: Done waiting for pending navigations. Status: ok
+[1735131646.337][INFO]: Waiting for pending navigations...
+[1735131650.565][INFO]: Done waiting for pending navigations. Status: ok
+[1735131650.565][INFO]: [b9e2686f2afe6ea38823809e93b01452] RESPONSE Navigate
+[1735131650.566][INFO]: [b9e2686f2afe6ea38823809e93b01452] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[id=\"user\"]"
+}
+[1735131650.566][INFO]: Waiting for pending navigations...
+[1735131650.567][INFO]: Done waiting for pending navigations. Status: ok
+[1735131650.577][INFO]: Waiting for pending navigations...
+[1735131650.577][INFO]: Done waiting for pending navigations. Status: ok
+[1735131650.577][INFO]: [b9e2686f2afe6ea38823809e93b01452] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.B2463D88710482E1AE6AE8480037361E.d.FCD4EA5F7F1C9E5A0FF3ED46B5C8227E.e.7"
+}
+[1735131650.578][INFO]: [b9e2686f2afe6ea38823809e93b01452] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[id=\"password\"]"
+}
+[1735131650.578][INFO]: Waiting for pending navigations...
+[1735131650.580][INFO]: Done waiting for pending navigations. Status: ok
+[1735131650.588][INFO]: Waiting for pending navigations...
+[1735131650.588][INFO]: Done waiting for pending navigations. Status: ok
+[1735131650.588][INFO]: [b9e2686f2afe6ea38823809e93b01452] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.B2463D88710482E1AE6AE8480037361E.d.FCD4EA5F7F1C9E5A0FF3ED46B5C8227E.e.9"
+}
+[1735131650.589][INFO]: [b9e2686f2afe6ea38823809e93b01452] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button//span[text()=\"Войти\"]"
+}
+[1735131650.589][INFO]: Waiting for pending navigations...
+[1735131650.590][INFO]: Done waiting for pending navigations. Status: ok
+[1735131650.598][INFO]: Waiting for pending navigations...
+[1735131650.599][INFO]: Done waiting for pending navigations. Status: ok
+[1735131650.599][INFO]: [b9e2686f2afe6ea38823809e93b01452] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.B2463D88710482E1AE6AE8480037361E.d.FCD4EA5F7F1C9E5A0FF3ED46B5C8227E.e.20"
+}
+[1735131650.600][INFO]: [b9e2686f2afe6ea38823809e93b01452] COMMAND TypeElement {
+   "id": "f.B2463D88710482E1AE6AE8480037361E.d.FCD4EA5F7F1C9E5A0FF3ED46B5C8227E.e.7",
+   "text": "akulkov",
+   "value": [ "a", "k", "u", "l", "k", "o", "v" ]
+}
+[1735131650.600][INFO]: Waiting for pending navigations...
+[1735131650.600][INFO]: Done waiting for pending navigations. Status: ok
+[1735131650.646][INFO]: Waiting for pending navigations...
+[1735131650.653][INFO]: Done waiting for pending navigations. Status: ok
+[1735131650.653][INFO]: [b9e2686f2afe6ea38823809e93b01452] RESPONSE TypeElement
+[1735131650.656][INFO]: [b9e2686f2afe6ea38823809e93b01452] COMMAND TypeElement {
+   "id": "f.B2463D88710482E1AE6AE8480037361E.d.FCD4EA5F7F1C9E5A0FF3ED46B5C8227E.e.9",
+   "text": "mea2ooPh3woofei3Gifies",
+   "value": [ "m", "e", "a", "2", "o", "o", "P", "h", "3", "w", "o", "o", "f", "e", "i", "3", "G", "i", "f", "i", "e", "s" ]
+}
+[1735131650.656][INFO]: Waiting for pending navigations...
+[1735131650.656][INFO]: Done waiting for pending navigations. Status: ok
+[1735131650.756][INFO]: Waiting for pending navigations...
+[1735131650.761][INFO]: Done waiting for pending navigations. Status: ok
+[1735131650.761][INFO]: [b9e2686f2afe6ea38823809e93b01452] RESPONSE TypeElement
+[1735131650.762][INFO]: [b9e2686f2afe6ea38823809e93b01452] COMMAND ClickElement {
+   "id": "f.B2463D88710482E1AE6AE8480037361E.d.FCD4EA5F7F1C9E5A0FF3ED46B5C8227E.e.20"
+}
+[1735131650.762][INFO]: Waiting for pending navigations...
+[1735131650.764][INFO]: Done waiting for pending navigations. Status: ok
+[1735131650.831][INFO]: Waiting for pending navigations...
+[1735131656.750][INFO]: Done waiting for pending navigations. Status: ok
+[1735131656.750][INFO]: [b9e2686f2afe6ea38823809e93b01452] RESPONSE ClickElement
+[1735131656.752][INFO]: [b9e2686f2afe6ea38823809e93b01452] COMMAND SetTimeouts {
+   "implicit": 10000
+}
+[1735131656.752][INFO]: [b9e2686f2afe6ea38823809e93b01452] RESPONSE SetTimeouts
+[1735131656.752][INFO]: [b9e2686f2afe6ea38823809e93b01452] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[contains(text(),\"Все файлы\")]"
+}
+[1735131656.753][INFO]: Waiting for pending navigations...
+[1735131656.753][INFO]: Done waiting for pending navigations. Status: ok
+[1735131656.764][INFO]: Waiting for pending navigations...
+[1735131656.766][INFO]: Done waiting for pending navigations. Status: ok
+[1735131656.766][INFO]: [b9e2686f2afe6ea38823809e93b01452] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.B2463D88710482E1AE6AE8480037361E.d.E0E091E91650843B5C8964AF62252CEA.e.61"
+}
+[1735131656.767][INFO]: [b9e2686f2afe6ea38823809e93b01452] COMMAND ClickElement {
+   "id": "f.B2463D88710482E1AE6AE8480037361E.d.E0E091E91650843B5C8964AF62252CEA.e.61"
+}
+[1735131656.767][INFO]: Waiting for pending navigations...
+[1735131656.768][INFO]: Done waiting for pending navigations. Status: ok
+[1735131656.826][INFO]: Waiting for pending navigations...
+[1735131656.827][INFO]: Done waiting for pending navigations. Status: ok
+[1735131656.827][INFO]: [b9e2686f2afe6ea38823809e93b01452] RESPONSE ClickElement
+[1735131656.829][INFO]: [b9e2686f2afe6ea38823809e93b01452] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//tr[contains(@data-file,\"file 3\")]//a[@data-action=\"menu\"]//span[@class=\"icon icon-more\"]"
+}
+[1735131656.829][INFO]: Waiting for pending navigations...
+[1735131656.835][INFO]: Done waiting for pending navigations. Status: ok
+[1735131656.848][INFO]: Waiting for pending navigations...
+[1735131656.850][INFO]: Done waiting for pending navigations. Status: ok
+[1735131656.850][INFO]: [b9e2686f2afe6ea38823809e93b01452] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.B2463D88710482E1AE6AE8480037361E.d.E0E091E91650843B5C8964AF62252CEA.e.63"
+}
+[1735131656.851][INFO]: [b9e2686f2afe6ea38823809e93b01452] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.B2463D88710482E1AE6AE8480037361E.d.E0E091E91650843B5C8964AF62252CEA.e.63"
+   } ],
+   "script": "arguments[0].click();"
+}
+[1735131656.851][INFO]: Waiting for pending navigations...
+[1735131656.852][INFO]: Done waiting for pending navigations. Status: ok
+[1735131656.871][INFO]: Waiting for pending navigations...
+[1735131656.875][INFO]: Done waiting for pending navigations. Status: ok
+[1735131656.876][INFO]: [b9e2686f2afe6ea38823809e93b01452] RESPONSE ExecuteScript null
+[1735131656.877][INFO]: [b9e2686f2afe6ea38823809e93b01452] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()=\"Удалить файл\"]"
+}
+[1735131656.877][INFO]: Waiting for pending navigations...
+[1735131656.878][INFO]: Done waiting for pending navigations. Status: ok
+[1735131656.889][INFO]: Waiting for pending navigations...
+[1735131656.890][INFO]: Done waiting for pending navigations. Status: ok
+[1735131656.890][INFO]: [b9e2686f2afe6ea38823809e93b01452] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.B2463D88710482E1AE6AE8480037361E.d.E0E091E91650843B5C8964AF62252CEA.e.87"
+}
+[1735131656.892][INFO]: [b9e2686f2afe6ea38823809e93b01452] COMMAND ClickElement {
+   "id": "f.B2463D88710482E1AE6AE8480037361E.d.E0E091E91650843B5C8964AF62252CEA.e.87"
+}
+[1735131656.892][INFO]: Waiting for pending navigations...
+[1735131656.893][INFO]: Done waiting for pending navigations. Status: ok
+[1735131656.998][INFO]: Waiting for pending navigations...
+[1735131657.008][INFO]: Done waiting for pending navigations. Status: ok
+[1735131657.008][INFO]: [b9e2686f2afe6ea38823809e93b01452] RESPONSE ClickElement
+[1735131657.009][INFO]: [b9e2686f2afe6ea38823809e93b01452] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@role=\"dialog\"]//h2"
+}
+[1735131657.009][INFO]: Waiting for pending navigations...
+[1735131657.010][INFO]: Done waiting for pending navigations. Status: ok
+[1735131667.058][INFO]: Waiting for pending navigations...
+[1735131667.059][INFO]: Done waiting for pending navigations. Status: ok
+[1735131667.059][INFO]: [b9e2686f2afe6ea38823809e93b01452] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@role="dialog"]//h2"}
+  (Session info: chrome=131.0.6778.205)
