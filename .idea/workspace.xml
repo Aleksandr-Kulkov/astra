@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b1fa92c-0058-4995-a4ac-bd250f12f750" name="Changes" comment="" />
+    <list default="true" id="1b1fa92c-0058-4995-a4ac-bd250f12f750" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/tests_test_nextcloud_files_page.py__test_nextcloud_files_cancel_delete_not_empty_0_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/tests_test_nextcloud_files_page.py__test_nextcloud_files_cancel_delete_not_empty_2_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/tests_test_nextcloud_files_page.py__test_nextcloud_files_cancel_delete_not_empty_3_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/tests_test_nextcloud_files_page.py__test_nextcloud_files_cancel_delete_not_empty_4_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/tests_test_nextcloud_files_page.py__test_nextcloud_files_cancel_delete_not_empty_5_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/tests_test_nextcloud_files_page.py__test_nextcloud_files_close_delete_two_files_0_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/tests_test_nextcloud_files_page.py__test_nextcloud_files_close_delete_two_files_2_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/tests_test_nextcloud_files_page.py__test_nextcloud_files_close_delete_two_files_3_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/tests_test_nextcloud_files_page.py__test_nextcloud_files_close_delete_two_files_4_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/tests_test_nextcloud_files_page.py__test_nextcloud_files_close_delete_two_files_5_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/tests_test_nextcloud_files_page.py__test_nextcloud_files_delete_empty_folder_0_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/tests_test_nextcloud_files_page.py__test_nextcloud_files_delete_empty_folder_2_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/tests_test_nextcloud_files_page.py__test_nextcloud_files_delete_empty_folder_3_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/tests_test_nextcloud_files_page.py__test_nextcloud_files_delete_empty_folder_4_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/tests_test_nextcloud_files_page.py__test_nextcloud_files_delete_empty_folder_5_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/tests_test_nextcloud_files_page.py__test_nextcloud_files_menu_delete_file_0_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/tests_test_nextcloud_files_page.py__test_nextcloud_files_menu_delete_file_2_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/tests_test_nextcloud_files_page.py__test_nextcloud_files_menu_delete_file_3_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/tests_test_nextcloud_files_page.py__test_nextcloud_files_menu_delete_file_4_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/tests_test_nextcloud_files_page.py__test_nextcloud_files_menu_delete_file_5_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,22 +37,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2qfkoNF9beXEHcR1HCqx0Uv9PmP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/akulkov/PycharmProjects/astra_del"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/akulkov/PycharmProjects/astra&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
