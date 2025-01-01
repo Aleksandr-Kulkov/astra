@@ -10,6 +10,7 @@
 - поместить в папку проекта папку с файлом веб-драйвера.
 
 Команда для запуска тестов с формированием html-отчета (вместо <path_to_driver> необходимо указать путь до файла веб-драйвера):
+
 python -m pytest -v --driver Chrome --driver-path <path_to_driver> --html=report.html --self-contained-html tests
 
 При тестировании применен паттерн PageObject.
